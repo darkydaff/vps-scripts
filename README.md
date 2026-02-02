@@ -7,6 +7,7 @@ A small collection of Linux VPS helper scripts focused on performance tuning and
 ## Scripts
 - `install_xanmod.sh` installs the XanMod kernel and required build tools.
 - `setup_network.sh` applies BBR/FQ, sysctl tuning, file limits, and swap setup for Marzban/Xray nodes.
+- `wg-easy.sh` installs Docker/curl if missing and runs the wg-easy WireGuard UI container.
 
 ## Usage
 1. Review the script you plan to run.
@@ -15,6 +16,7 @@ A small collection of Linux VPS helper scripts focused on performance tuning and
 ```bash
 sudo bash install_xanmod.sh
 sudo bash setup_network.sh
+sudo bash wg-easy.sh
 ```
 
 ## Quick install (wget | bash)
@@ -27,6 +29,11 @@ wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/mai
 ### setup_network.sh
 ```bash
 wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/main/setup_network.sh | bash
+```
+
+### wg-easy.sh
+```bash
+wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/main/wg-easy.sh | bash
 ```
 
 ## Notes

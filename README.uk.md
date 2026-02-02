@@ -7,6 +7,7 @@
 ## Скрипти
 - `install_xanmod.sh` встановлює ядро XanMod і необхідні інструменти.
 - `setup_network.sh` застосовує BBR/FQ, sysctl‑тюнінг, ліміти файлів і налаштування swap для вузлів Marzban/Xray.
+- `wg-easy.sh` встановлює Docker/curl (за потреби) і запускає контейнер wg-easy для WireGuard UI.
 
 ## Використання
 1. Перегляньте скрипт, який плануєте запускати.
@@ -15,6 +16,7 @@
 ```bash
 sudo bash install_xanmod.sh
 sudo bash setup_network.sh
+sudo bash wg-easy.sh
 ```
 
 ## Швидке встановлення (wget | bash)
@@ -27,6 +29,11 @@ wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/mai
 ### setup_network.sh
 ```bash
 wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/main/setup_network.sh | bash
+```
+
+### wg-easy.sh
+```bash
+wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/main/wg-easy.sh | bash
 ```
 
 ## Примітки
