@@ -19,8 +19,8 @@ sudo bash setup_network.sh
 
 ## Quick install (wget | bash)
 ```bash
-wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/main/install_xanmod.sh | sudo bash
-wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/main/setup_network.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/main/install_xanmod.sh | bash
+wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/main/setup_network.sh | bash
 ```
 
 ## Notes
