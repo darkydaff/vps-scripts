@@ -18,8 +18,14 @@ sudo bash setup_network.sh
 ```
 
 ## Quick install (wget | bash)
+Run as root (or `sudo -i` first).
+### install_xanmod.sh
 ```bash
 wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/main/install_xanmod.sh | bash
+```
+
+### setup_network.sh
+```bash
 wget -qO- https://raw.githubusercontent.com/darkydaff/vps-scripts/refs/heads/main/setup_network.sh | bash
 ```
 
